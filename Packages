@@ -1,0 +1,31 @@
+Package: com.autotouch.hybrid
+Name: QvAuto
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: QvAuto - Professional touch automation daemon for iOS with Web Dashboard & Vision AI.
+Maintainer: Developer <developer@autotouch.local>
+Author: Developer
+Section: System
+Depends: firmware (>= 14.0)
+Filename: debs/com.autotouch.hybrid_1.0.0_rootful.deb
+Size: 1657562
+MD5sum: bebbd71f5fe7fbb55710884a9900b3cc
+SHA1: e5963bc48792386f378de1c27f63866ef22eb760
+SHA256: ad178d3fb66e9b6e9dd12e246f336736d2f7366c458589b3e4ed7fba910bd4a2
+
+Package: com.autotouch.hybrid
+Name: QvAuto
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Tag: role::cydia, scheme::rootless
+Description: QvAuto - Professional touch automation daemon for iOS with Web Dashboard & Vision AI.
+Maintainer: Developer <developer@autotouch.local>
+Author: Developer
+Section: System
+Depends: firmware (>= 14.0)
+Filename: debs/com.autotouch.hybrid_1.0.0_rootless.deb
+Size: 1657610
+MD5sum: 80ddd7b9be720580976c323683bac916
+SHA1: 697eb8669f37b09f1990b61772be739ce545592f
+SHA256: 84a1bc58e00797309450101e02a2f4c38ed7a0b5bd79872bc099fd3a864d62c6
+

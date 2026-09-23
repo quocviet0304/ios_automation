@@ -1,0 +1,13 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{300, 150}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://raw.githubusercontent.com/favicon.png",
+      "title": "QvAuto Suite",
+      "package": "com.autotouch.hybrid",
+      "hideShadow": false
+    }
+  ]
+}

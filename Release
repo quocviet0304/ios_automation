@@ -1,0 +1,16 @@
+Origin: QvAuto Official
+Label: QvAuto Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Kho cài đặt chính thức QvAuto Automation & Multi-Account Suite
+MD5Sum:
+ 136045374acacfb7630fe18ffbc95920 1092 Packages
+ c7e807460e40d24c57d95cfa8c3310c1 613 Packages.bz2
+ 2d54a5c659ba1e1f0298da5e34d5d68e 588 Packages.xz
+SHA256:
+ ec5101b12d98738df09ac0a7f47504cd8f6f1114c0217171364849a0e04275bd 1092 Packages
+ c2e9d927d9500bb773e11c17fb3e9132869fe7d568f7f842b9dcc60630d0a5dd 613 Packages.bz2
+ 1554c314ef3b109a207fe5ec2bbd3a4e28c869c8633cbf6fa7eb3dc609bec024 588 Packages.xz
