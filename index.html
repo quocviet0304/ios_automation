@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,6 @@
             --border-color: #30363d;
             --accent: #007aff;
             --accent-glow: rgba(0, 122, 255, 0.35);
-            --tele-color: #2ca5e0;
-            --tele-glow: rgba(44, 165, 224, 0.35);
             --text-main: #f0f6fc;
             --text-muted: #8b949e;
         }
@@ -31,29 +29,26 @@
             width: 100%;
             background: var(--card-bg);
             border: 1px solid var(--border-color);
-            border-radius: 24px;
-            padding: 36px 24px;
+            border-radius: 20px;
+            padding: 32px 24px;
             text-align: center;
-            box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
         .icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 24px;
-            box-shadow: 0 8px 25px var(--accent-glow);
-            margin-bottom: 18px;
+            width: 96px;
+            height: 96px;
+            border-radius: 22px;
+            box-shadow: 0 6px 20px var(--accent-glow);
+            margin-bottom: 16px;
         }
-        h1 { font-size: 26px; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.5px; }
-        p.subtitle { font-size: 14px; color: var(--text-muted); margin-bottom: 24px; line-height: 1.5; }
+        h1 { font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+        p.subtitle { font-size: 14px; color: var(--text-muted); margin-bottom: 24px; }
         .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
+            display: block;
             width: 100%;
             padding: 14px;
             margin-bottom: 12px;
-            border-radius: 14px;
+            border-radius: 12px;
             font-size: 15px;
             font-weight: 600;
             text-decoration: none;
@@ -64,42 +59,24 @@
             color: white;
             box-shadow: 0 4px 15px var(--accent-glow);
         }
-        .btn-sileo:hover { opacity: 0.92; transform: translateY(-1px); }
+        .btn-sileo:hover { opacity: 0.9; transform: translateY(-1px); }
         .btn-zebra {
             background: #21262d;
             color: #f0f6fc;
             border: 1px solid var(--border-color);
         }
-        .btn-zebra:hover { background: #30363d; transform: translateY(-1px); }
-        .btn-tele {
-            background: linear-gradient(135deg, #2ca5e0, #1e87bb);
-            color: white;
-            box-shadow: 0 4px 15px var(--tele-glow);
-        }
-        .btn-tele:hover { opacity: 0.92; transform: translateY(-1px); }
+        .btn-zebra:hover { background: #30363d; }
         .url-box {
             background: #0d1117;
             border: 1px solid var(--border-color);
-            border-radius: 12px;
+            border-radius: 10px;
             padding: 12px;
-            font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace;
+            font-family: monospace;
             font-size: 13px;
             color: #58a6ff;
-            margin-top: 18px;
+            margin-top: 16px;
             word-break: break-all;
         }
-        .features {
-            text-align: left;
-            margin-top: 20px;
-            padding: 16px;
-            background: #0d1117;
-            border: 1px solid var(--border-color);
-            border-radius: 14px;
-            font-size: 13px;
-            color: var(--text-muted);
-            line-height: 1.6;
-        }
-        .features strong { color: #f0f6fc; }
         .footer {
             margin-top: 24px;
             font-size: 12px;
@@ -111,24 +88,17 @@
     <div class="container">
         <img src="CydiaIcon.png" alt="QvAuto" class="icon">
         <h1>QvAuto Repo</h1>
-        <p class="subtitle">High-Performance iOS UI Automation & UI Hierarchy Engine (uiautomator2 for iOS)</p>
+        <p class="subtitle">Kho ứng dụng Tweak tự động hoá iOS & Quản lý Đa Tài Khoản</p>
         
-        <a href="sileo://source/https://quocviet0304.github.io/ios_automation/" class="btn btn-sileo">📲 Add to Sileo</a>
-        <a href="zbra://sources/add/https://quocviet0304.github.io/ios_automation/" class="btn btn-zebra">🦓 Add to Zebra</a>
-        <a href="https://t.me/viethappy_0205" target="_blank" class="btn btn-tele">💬 Contact Support & License: @viethappy_0205</a>
+        <a href="sileo://source/https://repo.yourdomain.com" class="btn btn-sileo">📲 Thêm vào Sileo</a>
+        <a href="zbra://sources/add/https://repo.yourdomain.com" class="btn btn-zebra">🦓 Thêm vào Zebra</a>
         
         <div class="url-box">
-            https://quocviet0304.github.io/ios_automation/
-        </div>
-
-        <div class="features">
-            • <strong>UI Hierarchy Dump:</strong> XML/JSON Accessibility Tree like Android uiautomator2.<br>
-            • <strong>Automation Core:</strong> Low-level IOHIDEvent touch injection & 20ms Neural OCR.<br>
-            • <strong>Remote Control:</strong> Embedded REST API on port 8080 (Python, Node.js, cURL).
+            https://repo.yourdomain.com
         </div>
         
         <div class="footer">
-            Supports iOS 14.0 - 16.6.1 (Dopamine Rootless & Rootful) • © 2026 QvAuto
+            Hỗ trợ iOS 14.0 - 16.6.1 (Dopamine Rootless & Rootful)
         </div>
     </div>
 </body>
