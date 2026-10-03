@@ -7,10 +7,10 @@ Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: Kho cài đặt chính thức QvAuto Automation & Multi-Account Suite
 MD5Sum:
- d9ed6ca68ed54509150cbb96fb31ffbb 1092 Packages
- b4554703dc93dc75652093e1e06b2b95 624 Packages.bz2
- 956ac6aa1df039b893db99c5ec936c68 584 Packages.xz
+ b417408f0235a22a4b0abf793df96ac2 1092 Packages
+ 1acb726bd267ab6ca01163bb7726bfff 616 Packages.bz2
+ 134ff9faada7d021779810f09b69ee35 588 Packages.xz
 SHA256:
- f0713b6e1df46fc61c2f7d0460566851bbe2cc18dcdf2e26402efe0b636e0f9a 1092 Packages
- 75b0bd22eb420e333645c7bf900cc518f61eaf7798ccf68986e35d68cbec2be2 624 Packages.bz2
- f905d92a1f63a25b1f24359164c8999c5013534ea8ab52aaa37f8ab3500a4800 584 Packages.xz
+ 53c41585447c8e0f81f58244d6fd588fd3172b8c470fe3939453e2c147767649 1092 Packages
+ 95a097110198fc4fd4019994fce56b5cb51092327e11a71883dfc9b70227a0ee 616 Packages.bz2
+ dc7d8659c83c5bcda6d94abcf5d032b40f6f0242a530df0063e07653f78aac25 588 Packages.xz

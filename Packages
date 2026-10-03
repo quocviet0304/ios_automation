@@ -8,10 +8,10 @@ Author: Developer
 Section: System
 Depends: firmware (>= 14.0)
 Filename: debs/com.autotouch.hybrid_1.0.0_rootful.deb
-Size: 1674800
-MD5sum: 85555a060664563d4ae1c483d8af2f70
-SHA1: fad4b7eaffae79fc5712d5c03019e9707a41d92b
-SHA256: 4bddf0fd1fb724d9f498acf203a3518de6f135f48c5955382392a7cab8d065ee
+Size: 1682376
+MD5sum: e1e3bcd8aef8303d27657b7cafbaf3df
+SHA1: c089804e0d7b691b52e60122787e8b2b50207b53
+SHA256: ab0eccae3b86562b26d9865eb4f6030fe341d2cd198c134d9c9a4a7ad55e21c3
 
 Package: com.autotouch.hybrid
 Name: QvAuto
@@ -24,8 +24,8 @@ Author: Developer
 Section: System
 Depends: firmware (>= 14.0)
 Filename: debs/com.autotouch.hybrid_1.0.0_rootless.deb
-Size: 1674878
-MD5sum: 910e69da98ab61801fe430f55c24f9f7
-SHA1: e3ccfcaae316a551b8230cbdd6b557f042e002b6
-SHA256: 5dcba4d98f1999eac3029d0619d0049d54e39179f33ac44ae4ec96bdf42a6f3d
+Size: 1682440
+MD5sum: 82317d6afefe4d5d35a9cdc082c7e32b
+SHA1: 45585c41ad98236a6b1a0913f8226474b50978a2
+SHA256: f569169d19a6eedb4035145cefea7259fc7fdeab9614cdadbfdb8afb9bd47e2f
 
